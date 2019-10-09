@@ -5,8 +5,8 @@ import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
 import './TokenLock.sol';
 
 contract TEST is ERC20Pausable, Ownable {
-  string public constant name = "TEST token";
-  string public constant symbol = "TEST";
+  string public constant name = "KING";
+  string public constant symbol = "KING";
   uint public constant decimals = 18;
   uint public constant INITIAL_SUPPLY = 1000 * (10 ** decimals);
 
